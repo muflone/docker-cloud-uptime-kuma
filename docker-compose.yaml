@@ -3,7 +3,6 @@ services:
     image: louislam/uptime-kuma:1.23.13-debian
     container_name: uptime-kuma
     restart: unless-stopped
-    user: nobody:nogroup
     networks:
       - web
     env_file:
