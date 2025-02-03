@@ -14,7 +14,7 @@ System Requirements
 -------------------
 
 * Docker (tested using v.27.0.3)
-* Docker compose (tested using v.2.29.0)
+* Docker compose
 
 Installation
 ------------
