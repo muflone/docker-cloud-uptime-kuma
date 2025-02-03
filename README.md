@@ -13,7 +13,7 @@ Docker Uptime Kuma for Cloud
 System Requirements
 -------------------
 
-* Docker (tested using v.27.0.3)
+* Docker (tested using v.24.07)
 * Docker compose
 
 Installation
