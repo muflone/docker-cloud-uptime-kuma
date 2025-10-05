@@ -11,7 +11,7 @@ services:
       - ./data:/app/data
 
 networks:
-  public:
+  default:
     name: web
     external: true
 
