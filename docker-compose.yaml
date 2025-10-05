@@ -4,7 +4,7 @@ services:
     image: louislam/uptime-kuma:1.23.16-debian
     restart: unless-stopped
     networks:
-      - public
+      - default
     env_file:
       - ./app.env
     volumes:
@@ -12,5 +12,6 @@ services:
 
 networks:
   public:
+    name: web
     external: true
 
