@@ -1,7 +1,7 @@
 services:
   app:
     container_name: uptime
-    image: louislam/uptime-kuma:2.5.7-slim
+    image: louislam/uptime-kuma:2.5.7-slim-rootless
     restart: unless-stopped
     networks:
       - default
